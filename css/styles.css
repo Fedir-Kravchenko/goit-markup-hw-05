@@ -256,6 +256,26 @@ body {
 }
 
 /* 4. Work */
+
+.thamb-work {
+  position: relative;
+}
+
+.thamb-title {
+  display: inline-block;
+  position: absolute;
+  bottom: 27px;
+  right: 107px;
+
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: rgba(47, 48, 58, 0.8);
+}
+
 /* колір для тексту у секціях і шрифти*/
 
 .section.work {
