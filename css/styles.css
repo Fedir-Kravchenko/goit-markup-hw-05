@@ -639,6 +639,9 @@ body {
 
 .thamb-portfolio-img {
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .thamb-portfolio-img::before {
@@ -654,6 +657,21 @@ body {
   opacity: 0;
 }
 
-.thamb-portfolio-img:hover::before {
+.thamb-portfolio-img:hover::before,
+.text-for-img:hover {
   opacity: 1;
+}
+
+.text-for-img {
+  position: absolute;
+  padding: 63px 24px;
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+
+  letter-spacing: 0.03em;
+
+  color: #000000;
+  opacity: 0;
 }
