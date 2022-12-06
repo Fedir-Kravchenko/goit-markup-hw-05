@@ -666,10 +666,6 @@ body {
   opacity: 0;
 }
 .item-work:hover .thamb-portfolio-img::before,
-.text-for-img {
-  opacity: 1;
-}
-
 .item-work:hover .text-for-img {
   opacity: 1;
 }
@@ -684,6 +680,6 @@ body {
 
   letter-spacing: 0.03em;
 
-  color: #000000;
+  color: #ffffff;
   opacity: 0;
 }
