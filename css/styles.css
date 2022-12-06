@@ -665,9 +665,12 @@ body {
 
   opacity: 0;
 }
+.item-work:hover .thamb-portfolio-img::before,
+.text-for-img {
+  opacity: 1;
+}
 
-.thamb-portfolio-img:hover::before,
-.text-for-img:hover {
+.item-work:hover .text-for-img {
   opacity: 1;
 }
 
